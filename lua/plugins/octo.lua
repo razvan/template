@@ -1,3 +1,8 @@
+--
+-- Deactivated to test snacks-gh
+--
+if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+
 return {
   "pwntester/octo.nvim",
   cmd = "Octo",
