@@ -1,7 +1,8 @@
 --
 -- Octo has better usability for editing issues.
+-- But Octo has more bugs too, so ...
 --
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 return {
   {
