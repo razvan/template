@@ -9,4 +9,26 @@
 return {
   "A7Lavinraj/fyler.nvim",
   commit = "b271c7ad914b27384e9e922edfaf8af36fd1e836",
+  dependencies = {
+    {
+      "AstroNvim/astrocore",
+      opts = function(_, opts)
+        local maps = opts.mappings or {}
+        maps.n["<Leader>e"] = {
+          function() require("fyler").toggle { kind = "split_left" } end,
+          desc = "Open with fyler (split)",
+        }
+      end,
+    },
+  },
+  opts = {
+    views = {
+      finder = {
+        close_on_select = false,
+        win = {
+          kind = "split_left",
+        },
+      },
+    },
+  },
 }
