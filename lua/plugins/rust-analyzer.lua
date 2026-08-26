@@ -8,7 +8,7 @@ return {
             -- This is needed because Stackable ops have a custom rustfmt.toml
             -- that enables features that require nightly.
             rustfmt = {
-              extraArgs = { "+nightly-2026-02-24" },
+              extraArgs = { "+nightly-2026-07-01" },
             },
           },
         },

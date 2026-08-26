@@ -11,7 +11,7 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.rust" },
   -- { import = "astrocommunity.pack.go" },
-  { import = "astrocommunity.file-explorer.fyler-nvim" },
+  -- { import = "astrocommunity.file-explorer.fyler-nvim" },
   -- Base pack with basedpyright and ruff
   { import = "astrocommunity.pack.python.base" },
   { import = "astrocommunity.pack.python.basedpyright" },
