@@ -17,4 +17,5 @@ return {
   { import = "astrocommunity.pack.python.basedpyright" },
   -- { import = "astrocommunity.pack.python.ruff" },
   -- { import = "astrocommunity.pack.python.black" },
+  { import = "astrocommunity.git.codediff-nvim" },
 }
