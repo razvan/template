@@ -18,4 +18,5 @@ return {
   -- { import = "astrocommunity.pack.python.ruff" },
   -- { import = "astrocommunity.pack.python.black" },
   { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.git.diffview-plus-nvim" },
 }
