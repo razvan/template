@@ -11,4 +11,5 @@ return {
   -- import/override with your plugins folder
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.git.diffview-plus-nvim" },
 }
